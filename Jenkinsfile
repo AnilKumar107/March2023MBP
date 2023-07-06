@@ -1,7 +1,7 @@
 pipeline {
    agent any
    stages {
-       stage('Build Code') {
+       stage('Build Code1') {
            steps {
                sh "mvn clean package"
                echo "Building Artifact for project"
